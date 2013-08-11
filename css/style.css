@@ -1,0 +1,132 @@
+/* 15-237: Building Cross Platform Mobile Web Apps
+ * Homework 3: Part 1 - Advanced HTML and CSS
+ *
+ * Name: Eshan Chordia
+ * AndrewID: echordia
+ */
+
+
+
+ /* Woops, there appears to be nothing here!  That's because you have to write it! */
+ body {
+ 	font-family: 'Oswald', sans-serif;
+ 	background-image: url('../images/linen_bg.png');
+ }
+
+ .outer-box {
+ 	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: #DDD;
+ 	box-shadow: 0px 0px 9px;
+ 	padding: 10px 10px 10px 10px;
+ 	margin: 10px 5px 10px 5px;
+ 	background-color: #FAFAFA;
+ }
+
+ .outer-box .inner-box {
+ 	background: -webkit-linear-gradient(top, #EEE 0%, #999 100%);
+ 	background: -moz-linear-gradient(top, #EEE 0%, #999 100%);
+
+ 	border-style: inset;
+ 	border-width: 1px;
+ 	box-shadow: 0px 0px 7px inset;
+ }
+
+ .outer-box:hover{
+ 	background-image: url(../images/dark_denim_bg.png);
+ 	box-shadow: 0px 0px 3px;
+ }
+
+ .outer-box:hover > .text2 {
+ 	color: #FFF;
+ }
+
+ .outer-box:active {
+ 	position: relative;
+ 	top: 2px;
+
+ }
+
+ .outer-box .inner-box .pic {
+ 	padding-bottom: 30px;
+ }
+
+ .pic {
+ 	position: relative;
+ }
+
+.s3 { 
+ 	background-image: url('../images/os_type_icons.png');
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: 2px;
+ 	background-position: 0px 0px;
+ 	width: 30px;
+ 	height: 30px;
+ }
+
+ .ipad {
+ 	background-image: url('../images/os_type_icons.png');
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: 2px;
+ 	background-position: -30px 0px;
+ 	width: 30px;
+ 	height: 30px;
+ }
+
+ .nokia {
+ 	background-image: url('../images/os_type_icons.png');
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: 2px;
+ 	background-position: -60px 0px;
+ 	width: 30px;
+ 	height: 30px;
+ }
+
+ .nexus {
+ 	background-image: url('../images/os_type_icons.png');
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: 2px;
+ 	background-position: 0px 0px;
+ 	width: 30px;
+ 	height: 30px;
+ }
+
+ .xoom {
+ 	background-image: url('../images/os_type_icons.png');
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	right: 0px;
+ 	bottom: 2px;
+ 	background-position: 0px 0px;
+ 	width: 30px;
+ 	height: 30px;
+ }
+
+
+
+ img {
+ 	display: block;
+ 	margin-top: auto;
+ 	margin-bottom: auto;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .text1 {
+ 	padding-top: 5px;
+ 	color: #AAAAAA;
+ }
+
+ .text2 {
+ 	padding-top: 5px;
+ 	color: #C90000;
+ }
+
